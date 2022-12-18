@@ -1,0 +1,194 @@
+.bg-gif{
+  background-color: rgba(0, 0, 0, 0.5);
+  filter: brightness(100%);
+}
+.bg-video-container{
+  width: 100%;
+  position: absolute;
+  height: 600px;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  background-color: rgb(0, 0, 0);
+}
+.bg-video{
+  width: 200%;
+  margin: auto;
+}
+.top-nav{
+  height: 60px;
+  background-color: brown;
+}
+.logo{
+  color: goldenrod;
+  text-shadow: 1px 1px 5px gray;
+}
+.dropdown-toggle{
+  background-color: rgba(0, 0, 0, 0.5);
+}
+.dropdown{
+  float: right;
+}
+.dropdown-menu-dark{
+  background-color: rgba(0, 0, 0, 0.5);
+}
+@media (min-width:993px){
+  .dropdown{
+    display: none;
+  }
+}
+.navbar-nav{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+@media (max-width:992px){
+.navbar-nav{
+  display: none;
+}
+}
+.nav-link{
+  padding: 5px 10px;
+  text-transform: uppercase;
+  color: rgba(255, 255, 255, 1);
+}
+.nav-link:hover{
+  color: goldenrod;
+}
+.main-top-content{
+  background-color: rgba(0, 0, 0, 0.5);
+  filter: brightness(100%);
+  color: white;
+}
+.top-content>div{
+  height: 540px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.top-content>div>h1{
+  width: 45%;
+}
+.top-content>div>h6{
+  width: 55%;
+}
+@media (max-width:1200px){
+  .top-content>div>h1{
+    width: 80%;
+  }
+  .top-content>div>h6{
+    width: 70%;
+  }
+}
+@media (max-width:775px){
+  .top-content>div>h1{
+    width: 90%;
+  }
+  .top-content>div>h6{
+    width: 90%;
+  }
+}
+.btn-join{
+  width: 120px;
+  background-color: brown;
+  color: goldenrod;
+  border-radius: 60px;
+  font-weight: 600;
+  padding-top: 0.2rem;
+  display: inline-block;
+  position: relative;
+  border: 2px solid goldenrod;
+  transition: all 0.5s;
+}
+.btn-join:after{
+  background-color: goldenrod;
+  border-radius: 60px;
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 0%;
+  height: 100%;
+  z-index: -1;
+  transition: all 0.5s;
+}
+.btn-join:hover::after{
+  width: 100%;
+}
+.card-slider{
+  margin-top: -100px;
+  background-image: url(dark-pattern.jpg);
+  background-attachment: fixed;
+}
+.swiper-slide{
+  background-color: rgb(0, 0, 0);
+  background-image: url(dark-pattern.jpg);
+  color: white;
+  border-radius: 30px;
+  border: none;
+  border: 2px solid white;
+}
+span.overlay::after{
+  background-color: rgb(0, 0, 0);
+  background-image: url(dark-pattern.jpg);
+}
+.name{
+  color: white;
+}
+.bg-fixed{
+  color: white;
+  background-image: url(image-3.jpeg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+.meetings-fluid{
+  background-color: rgba(0, 0, 0, 0.8);
+}
+.button{
+  border: 2px solid goldenrod;
+  background-color: brown;
+  color: goldenrod;
+  transition: ease-in-out 0.5s;
+  box-shadow: inset 0 0 0 0 goldenrod;
+}
+.button:hover{
+  border: 2px solid brown;
+  color: brown;
+  box-shadow: inset 200px 0 20px 0 goldenrod;
+}
+.bachlor-degree{
+  background-color: rgba(255, 255, 255, 0.2);
+  color: white;
+  border-radius: 10px;
+}
+.bachlor-degree>h1{
+  font-size: xx-large;
+}
+.accordings{
+  background-color: rgba(255, 255, 255, 0.2);
+  color: black;
+  border-radius: 10px;
+}
+.accordion-item{
+  background-color: transparent;
+  color: goldenrod;
+  color: white;
+}
+.accordion-button{
+  background-color: rgba(255, 255, 255, 0.300);
+  color: goldenrod;
+  font-weight: 600;
+}
+.contact>div>div{
+  border-radius: 35px;
+}
+.form{
+  background-color: rgba(255, 255, 255, 0.8);
+  color: black;
+}
+.contact-no{
+  background-color: brown;
+  color: goldenrod;
+}
